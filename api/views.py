@@ -1,3 +1,10 @@
-from django.shortcuts import render
+import os
+from django.http import JsonResponse
+from datetime import datetime
 
-# Create your views here.
+def public_api(request):
+    return JsonResponse({
+        'email': 'sinbadprince9@gmail.com',
+        'current_datetime': datetime.utcnow().isoformat() + 'Z',
+        'github_url': 'https://github.com/PrinceTheDev/HNG'
+    })
