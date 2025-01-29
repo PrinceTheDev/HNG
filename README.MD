@@ -42,3 +42,25 @@ To run this project, you need:
 
 ## Usage
 
+Once the server is running, you can access the API endpoint by visiting the following url:
+
+http://127.0.0.1:8000/api/
+
+## API Documentation
+
+### Endpoint URL
+- GET /api/.
+
+### Request Format
+- Method: GET
+- URL: /api/
+
+### Response Format
+The API will return the following in JSON object
+
+{
+  "email": "your-email@example.com",
+  "current_datetime": "2025-01-30T09:30:00Z",
+  "github_url": "https://github.com/yourusername/your-repo"
+}
+
