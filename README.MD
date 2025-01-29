@@ -1,23 +1,44 @@
 # PUBLIC API TO RETRIVE BASIC INFORMATION
 This project implements a simple public API built using Django that returns basic information in a JSON format. The API returns the following data:
 
-*** "Your registered email address." ***
-*** "The current datetime in ISO 8601 format (UTC)." ***
-*** "The URL to your GitHub repository." ***
+- Your registered email address.
+- The current datetime in ISO 8601 format (UTC).
+- The URL to your GitHub repository.
 
 ## Table of Contents
-Installation
-Usage
-API Documentation
-Example Request
-Deployment
-License
+### Installation
+### Usage
+### API Documentation
+### Example Request
+### Deployment
+### License
 
-Installation
-Prerequisites
+## Installation
+### Prerequisites
 To run this project, you need:
 
-Python 3.x installed.
-Django installed.
-Django CORS Headers installed (for handling CORS).
-Setup
+- Python 3.x installed.
+- Django installed.
+- Django CORS Headers installed (for handling CORS).
+
+## Setup
+1. Clone The Repository
+- $ git clone https://token@github.com/yourusername/your-repo.git
+- $ cd your-repo
+2. Create and Activate Virtual Environment
+- $ python3 -m (name of env) venv
+- $ source venv/bin/activate
+3. Install Dependencies
+- $ pip install -r requirements.txt
+4. Secure Secret Key
+- Add a .env file in the root directory and add your secret key with any other sensitive data.
+- DJANGO_SECRET_KEY=your-secret-key-here
+
+5. Migrate database if needed
+- $ python3 manage.py migrate
+
+6. Run The Server
+- $ python3 manage.py runserver.
+
+## Usage
+
