@@ -88,3 +88,8 @@ https://hng-1-zifm.onrender.com/
 - The response time is under 500ms for all requests.
 
 ## Backlinks
+https://hng.tech/hire/python-developers
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details
