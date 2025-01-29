@@ -64,7 +64,7 @@ The API will return the following in JSON object
   "github_url": "https://github.com/yourusername/your-repo"
 }***
 
-### Example Request
+## Example Request
 To make a simply request, simply access the API in your broweser or through tools like Postman or curl:
 
 ***bash***
