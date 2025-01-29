@@ -25,11 +25,14 @@ To run this project, you need:
 1. Clone The Repository
 - $ git clone https://token@github.com/yourusername/your-repo.git
 - $ cd your-repo
+
 2. Create and Activate Virtual Environment
 - $ python3 -m (name of env) venv
 - $ source venv/bin/activate
+
 3. Install Dependencies
 - $ pip install -r requirements.txt
+
 4. Secure Secret Key
 - Add a .env file in the root directory and add your secret key with any other sensitive data.
 - DJANGO_SECRET_KEY=your-secret-key-here
@@ -44,7 +47,8 @@ To run this project, you need:
 
 Once the server is running, you can access the API endpoint by visiting the following url:
 
-http://127.0.0.1:8000/api/
+http://127.0.0.1:8080/ or http://127.0.0.1:8000/
+depending on the port used
 
 ## API Documentation
 
@@ -69,7 +73,8 @@ To make a simply request, simply access the API in your broweser or through tool
 
 ***bash***
 
-curl http://127.0.0.1:8000/api/
+curl http://127.0.0.1:8080/ or curl http://127.0.0.1:8000/
+depending on the port used
 
 You will get a similar response to this:
 
