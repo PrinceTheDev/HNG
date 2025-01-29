@@ -58,9 +58,33 @@ http://127.0.0.1:8000/api/
 ### Response Format
 The API will return the following in JSON object
 
-{
+***{
   "email": "your-email@example.com",
   "current_datetime": "2025-01-30T09:30:00Z",
   "github_url": "https://github.com/yourusername/your-repo"
-}
+}***
 
+### Example Request
+To make a simply request, simply access the API in your broweser or through tools like Postman or curl:
+
+***bash***
+
+curl http://127.0.0.1:8000/api/
+
+You will get a similar response to this:
+
+***{
+  "email": "your-email@example.com",
+  "current_datetime": "2025-01-30T09:30:00Z",
+  "github_url": "https://github.com/yourusername/your-repo"
+}***
+
+
+## Deployment
+The API is deployed on Render and can be accessed via the following link:
+https://hng-1-zifm.onrender.com/
+
+- The API is hosted and publicly accessible.
+- The response time is under 500ms for all requests.
+
+## Backlinks
